@@ -121,3 +121,31 @@ body {
   color: var(--secondary);
   text-align: center;
 }
+/* ===== MINIMAL PORTFOLIO REFINEMENT ===== */
+
+section.container {
+  max-width: 720px;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-top: 56px;
+  letter-spacing: 0.02em;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.subtitle {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+hr {
+  margin: 64px 0;
+  border: none;
+  border-top: 1px solid #E5E7EB;
+}
+
