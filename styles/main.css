@@ -239,4 +239,72 @@ body {
 .nav-links a.active {
   font-weight: 600;
 }
+/* ======================
+   INSIGHT LIST PAGE
+====================== */
+
+.insight-list {
+  padding: 80px 20px;
+  background-color: #f8faf9;
+}
+
+.insight-intro {
+  max-width: 700px;
+  margin: 10px 0 40px;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* Grid layout */
+.insight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.insight-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.insight-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Tag */
+.insight-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #2f7f6f;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+/* Title link */
+.insight-card h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.insight-card h3 a {
+  text-decoration: none;
+  color: #1f2933;
+}
+
+.insight-card h3 a:hover {
+  color: #2f7f6f;
+}
+
+/* Description */
+.insight-card p {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
 
