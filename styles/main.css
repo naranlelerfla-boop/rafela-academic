@@ -308,3 +308,51 @@ body {
   line-height: 1.6;
 }
 
+/* ======================
+   LATEST INSIGHT (HOME)
+====================== */
+
+.latest-insight {
+  padding: 90px 20px;
+  background-color: #ffffff;
+}
+
+.latest-insight h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.section-intro {
+  max-width: 620px;
+  color: var(--muted);
+  margin-bottom: 40px;
+}
+
+.latest-insight-card {
+  max-width: 760px;
+  background: var(--surface);
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.06);
+}
+
+.latest-insight-card h3 {
+  margin: 15px 0;
+  font-size: 1.4rem;
+}
+
+.latest-insight-card a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.latest-insight-card a:hover {
+  color: var(--primary);
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--primary);
+  font-weight: 500;
+}
