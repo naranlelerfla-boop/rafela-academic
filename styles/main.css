@@ -150,4 +150,42 @@ hr {
 body {
   background: #f2f2f2 !important;
 }
+/* ======================
+   INSIGHT DETAIL PAGE
+====================== */
+.insight-detail {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #2f7f6f;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.insight-detail h1 {
+  font-size: 2rem;
+  margin: 15px 0 10px;
+}
+
+.insight-meta {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.insight-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
 
