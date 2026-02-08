@@ -393,3 +393,14 @@ body {
 .conference-list li {
   margin-bottom: 1.5rem;
 }
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: #5f6f7a;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
