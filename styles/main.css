@@ -371,3 +371,25 @@ body {
 .outputs-list a:hover {
   text-decoration: underline;
 }
+.content {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.content h1 {
+  margin-bottom: 1.5rem;
+}
+
+.intro {
+  color: #5f6f7a;
+  margin-bottom: 1.5rem;
+}
+
+.conference-list {
+  padding-left: 1.2rem;
+}
+
+.conference-list li {
+  margin-bottom: 1.5rem;
+}
