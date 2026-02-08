@@ -307,52 +307,48 @@ body {
   color: #4b5563;
   line-height: 1.6;
 }
-
-/* ======================
-   LATEST INSIGHT (HOME)
-====================== */
-
-.latest-insight {
-  padding: 90px 20px;
-  background-color: #ffffff;
+.hero {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.latest-insight h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+.hero-content {
+  max-width: 700px;
 }
 
-.section-intro {
-  max-width: 620px;
-  color: var(--muted);
-  margin-bottom: 40px;
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 
-.latest-insight-card {
-  max-width: 760px;
-  background: var(--surface);
-  padding: 40px;
-  border-radius: 18px;
-  box-shadow: 0 12px 35px rgba(0,0,0,0.06);
+.hero-quote {
+  font-style: italic;
+  color: #5f6f7a;
+  margin-bottom: 2.5rem;
 }
 
-.latest-insight-card h3 {
-  margin: 15px 0;
-  font-size: 1.4rem;
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
-.latest-insight-card a {
-  color: var(--secondary);
+.btn-primary {
+  padding: 12px 28px;
+  background-color: #1f2a35;
+  color: #fff;
   text-decoration: none;
+  border-radius: 8px;
 }
 
-.latest-insight-card a:hover {
-  color: var(--primary);
-}
-
-.read-more {
-  display: inline-block;
-  margin-top: 20px;
-  color: var(--primary);
-  font-weight: 500;
+.btn-secondary {
+  padding: 12px 28px;
+  border: 1.5px solid #1f2a35;
+  color: #1f2a35;
+  text-decoration: none;
+  border-radius: 8px;
 }
