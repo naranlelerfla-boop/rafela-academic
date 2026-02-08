@@ -421,3 +421,9 @@ body {
   color: #6b7280;
   line-height: 1.5;
 }
+.closing-note {
+  margin-top: 4rem;        /* jarak dari judul ketiga */
+  font-size: 0.85rem;      /* tulisan lebih kecil */
+  color: #9ca3af;          /* abu-abu pudar */
+  line-height: 1.6;
+}
