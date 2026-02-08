@@ -404,3 +404,20 @@ body {
 .back-link:hover {
   text-decoration: underline;
 }
+.writing-figure {
+  margin: 2.5rem 0;
+}
+
+.writing-figure img {
+  width: 100%;
+  max-width: 720px;
+  display: block;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
+}
+
+.writing-figure figcaption {
+  font-size: 0.85rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
