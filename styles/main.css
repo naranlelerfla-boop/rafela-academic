@@ -422,8 +422,9 @@ body {
   line-height: 1.5;
 }
 .closing-note {
-  margin-top: 4rem;        /* jarak dari judul ketiga */
-  font-size: 0.85rem;      /* tulisan lebih kecil */
-  color: #9ca3af;          /* abu-abu pudar */
+  margin-top: 6rem;        /* JARAK JAUH DARI JUDUL TERAKHIR */
+  font-size: 0.72rem;      /* lebih kecil lagi */
+  color: #ccd1d9;          /* abu-abu pudar */
   line-height: 1.6;
+  text-align: center;      /* biar terasa penutup */
 }
