@@ -429,19 +429,3 @@ body {
   line-height: 1.6;
   text-align: center;      /* biar terasa penutup */
 }
-/* ===== GLOBAL THEME ===== */
-
-:root {
-  --bg-main: #f9faf8;
-  --text-main: #1f2933;
-  --text-muted: #5f6c72;
-  --accent: #3a6f73;
-}
-
-body {
-  background-color: var(--bg-main);
-  color: var(--text-main);
-  font-family: 'Inter', sans-serif;
-  line-height: 1.7;
-  font-size: 16px;
-}
