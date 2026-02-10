@@ -7,13 +7,14 @@
 
 :root {
   --primary: #1F2933;
-  --secondary: #4B5563;
+  --secondary: #5f6c72;
   --border: #E5E7EB;
-  --accent: #7C9A92;
+  --accent: #3a6f73;
+  --bg-main: #f9faf8;
 }
 
 body {
-  background: #ffffff;
+  background-color: var(--bg-main);
   color: var(--primary);
   line-height: 1.7;
 }
