@@ -464,3 +464,41 @@ main {
     padding: 24px;
   }
 }
+/* ================================
+   MOBILE FIX: INSIGHT & CONTACT
+================================ */
+
+@media (max-width: 768px) {
+
+  /* INSIGHT DETAIL PAGE */
+  .insight-detail {
+    padding: 40px 20px;
+  }
+
+  .insight-detail h1 {
+    font-size: 1.6rem;
+    margin: 12px 0;
+  }
+
+  .insight-content p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  /* CONTACT PAGE */
+  .contact-wrapper,
+  .contact-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-section {
+    padding: 40px 20px;
+  }
+
+  .contact-card {
+    padding: 24px;
+  }
+
+}
