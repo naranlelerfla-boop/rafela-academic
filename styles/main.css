@@ -35,11 +35,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 18px 0;   /* 👈 ini yang bikin nafas */
 }
 
 .logo {
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  margin-right: 32px;
+  font-weight: 600;
 }
 
 .nav-links {
@@ -433,4 +434,33 @@ section,
 header,
 main {
   background-color: transparent;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 14px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 92%;
+  }
+
+  .insight-grid,
+  .journey-grid,
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 40px 0;
+  }
+
+  .contact-card {
+    padding: 24px;
+  }
 }
