@@ -6,11 +6,11 @@
 }
 
 :root {
-  --primary: #1f2f38;     /* teks utama: biru laut gelap */
-  --secondary: #5f6f73;   /* teks sekunder: abu laut */
-  --border: #dde5e8;      /* garis halus */
-  --accent: #3a6f73;      /* aksen: teal laut */
-  --bg-main: #f4f8f7;     /* background: soft ocean */
+  --primary: #1f2933;     /* teks utama */
+  --secondary: #4b5563;   /* teks sekunder */
+  --border: #e5e7eb;      /* garis halus */
+  --accent: #374151;     /* aksen netral */
+  --bg-main: #f6f6f4;    /* BROKEN WHITE */
 }
 
 body {
@@ -428,4 +428,9 @@ body {
   color: #ccd1d9;          /* abu-abu pudar */
   line-height: 1.6;
   text-align: center;      /* biar terasa penutup */
+}
+section,
+header,
+main {
+  background-color: transparent;
 }
