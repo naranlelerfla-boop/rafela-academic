@@ -90,6 +90,11 @@ body {
   text-shadow: 0 4px 20px rgba(0,0,0,0.7);
 }
 
+.hero-quote {
+  color: white;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+
 .subtitle {
   color: var(--secondary);
   margin-bottom: 36px;
