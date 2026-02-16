@@ -120,8 +120,8 @@ body {
 }
 
 .btn.secondary {
-  border: 1px solid var(--primary);
-  color: var(--primary);
+  border: 2px solid white;
+  color: white;
 }
 
 .btn.primary:hover {
@@ -129,8 +129,10 @@ body {
 }
 
 .btn.secondary:hover {
-  background: #F3F4F6;
+  background: white;
+  color: var(--primary);
 }
+
 
 /* FOOTER */
 .footer {
