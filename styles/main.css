@@ -61,12 +61,25 @@ body {
 
 /* HERO */
 .hero {
-  min-height: 75vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background: url("assets/coastal-hero.jpg") center/cover no-repeat;
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
 }
 
 .hero-content {
+  position: relative;
+  color: white;
   max-width: 720px;
 }
 
