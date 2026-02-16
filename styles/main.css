@@ -66,9 +66,10 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-background-color: red !important;
-}
 
+  background: url("../assets/coastal-hero.jpg") center/cover no-repeat;
+  position: relative;
+}
 .hero::before {
   content: "";
   position: absolute;
