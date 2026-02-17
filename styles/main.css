@@ -102,25 +102,38 @@ body {
 }
 
 .hero-insights {
-  margin-top: 60px;
-  max-width: 720px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
-.hero-insights h2 {
-  font-size: 1.1rem;
-  margin-bottom: 12px;
-  color: white;
+.btn-insight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease;
 }
 
-.hero-insights p {
-  color: rgba(255,255,255,0.8);
-  line-height: 1.6;
-  margin-bottom: 14px;
+.insight-title {
+    font-weight: 600;
+    font-size: 1rem;
 }
 
-.hero-insights .insight-link {
-  color: white;
-  text-decoration: underline;
+.insight-subtitle {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-top: 4px;
+}
+
+.btn-insight:hover {
+    background: white;
+    color: var(--primary);
 }
 
 /* BUTTONS */
