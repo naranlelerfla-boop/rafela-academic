@@ -120,8 +120,9 @@ body {
 }
 
 .btn-secondary {
+  background: white;
   border: 2px solid white;
-  color: white;
+  color: var(--primary);
 }
 
 .btn.primary:hover {
