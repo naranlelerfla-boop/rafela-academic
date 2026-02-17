@@ -101,6 +101,28 @@ body {
   text-shadow: 0 2px 10px rgba(0,0,0,0.6);
 }
 
+.hero-insights {
+  margin-top: 60px;
+  max-width: 720px;
+}
+
+.hero-insights h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.hero-insights p {
+  color: rgba(255,255,255,0.8);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.hero-insights .insight-link {
+  color: white;
+  text-decoration: underline;
+}
+
 /* BUTTONS */
 .cta-buttons {
   display: flex;
