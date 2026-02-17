@@ -115,8 +115,9 @@ body {
 }
 
 .btn-primary {
-  background: var(--primary);
-  color: #fff;
+  background: white;
+  border: 2px solid white;
+  color: var(--primary);
 }
 
 .btn-secondary {
