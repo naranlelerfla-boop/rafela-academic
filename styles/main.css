@@ -146,6 +146,17 @@ body {
   color: var(--secondary);
   text-align: center;
 }
+.photo-credit {
+  font-size: 0.8rem;
+  margin-top: 6px;
+  opacity: 0.75;
+  color: var(--secondary);
+}
+
+.photo-credit a {
+  color: var(--secondary);
+  text-decoration: underline;
+}
 
 section.container {
   max-width: 720px;
