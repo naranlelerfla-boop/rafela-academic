@@ -147,24 +147,17 @@ body {
   border-radius: 6px;
   font-size: 0.9rem;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-.btn-primary {
-  background: white;
-  border: 2px solid white;
-  color: var(--primary);
-}
-
+.btn-primary,
 .btn-secondary {
-  background: white;
+  background: transparent;
   border: 2px solid white;
-  color: var(--primary);
+  color: white;
 }
 
-.btn.primary:hover {
-  background: #111827;
-}
-
+.btn-primary:hover,
 .btn-secondary:hover {
   background: white;
   color: var(--primary);
